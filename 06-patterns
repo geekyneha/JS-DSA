@@ -45,3 +45,21 @@ for (let i = 1; i <= 5; i++) {
   }
   console.log(row);
 }
+
+// Pattern 4: Right-Angled Triangle of Numbers starting from 1
+/*
+1
+2 2
+3 3 3
+4 4 4 4     
+*/
+console.log(
+  "\nPattern 4: Right-Angled Triangle of Numbers with repeated numbers"
+);
+for (let i = 1; i <= 5; i++) {
+  let row = " ";
+  for (let j = 1; j <= i; j++) {
+    row = row + i + " ";
+  }
+  console.log(row);
+}
