@@ -1,4 +1,4 @@
-let n = 4;
+let n = 6;
 
 // Pattern 1: Square of Stars
 /*
@@ -105,6 +105,26 @@ console.log("\nPattern 6: Inverted Right-Angled Triangle of Stars");
 for (let i = 0; i <= n; i++) {
   let row = " ";
   for (let j = 0; j <= n - i; j++) {
+    row += "* ";
+  }
+  console.log(row);
+}
+
+// Pattern 7: Right-Angled Triangle of Stars with Spaces
+/*
+ *
+ * *
+ * * *
+ * * * *
+ */
+console.log("\nPattern 7: Right-Angled Triangle of Stars with Spaces");
+for (let i = 0; i < n; i++) {
+  let row = " ";
+
+  for (let j = 0; j < n - i; j++) {
+    row += "  ";
+  }
+  for (let j = 0; j <= i; j++) {
     row += "* ";
   }
   console.log(row);
