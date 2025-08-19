@@ -1,3 +1,9 @@
+// insertion Soert Algorithm
+// Time Complexity: O(n^2)
+// Space Complexity: O(1)
+
+// In insertion sort, we take an element from the unsorted part of the array and insert it into the correct position in the sorted part of the array.
+// This process is repeated until the entire array is sorted.
 function insertionSort(nums) {
   let n = nums.length;
 
